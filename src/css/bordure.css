@@ -1,0 +1,18 @@
+.concave-border{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    overflow: hidden;
+}
+.concave-border::before {
+    content:'';
+    position: absolute;
+    top: -50%;
+    left: 0;
+    height: 200%;
+    background: url('../asset/\'\'Fichier\ 6.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+    transform: scaleY(0.5);
+}
