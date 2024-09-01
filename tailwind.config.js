@@ -11,7 +11,11 @@ export default {
       "1.5xl": "1408px",
       "2xl": "1536px",
     },
-    extend: {},
+    extend: {
+      colors : {
+        primary : "rgb(8, 197, 8)"
+      }
+    },
   },
   plugins: [],
 };

@@ -16,3 +16,12 @@
     border-radius: 50%;
     transform: scaleY(0.5);
 }
+
+.text-green{
+   color: rgb(8, 197, 8); 
+}
+
+.border-neutral{
+    border-color: rgb(236, 232, 232);
+    --tw-border-opacity: 1;
+}
