@@ -17,11 +17,39 @@
     transform: scaleY(0.5);
 }
 
-.text-green{
-   color: rgb(8, 197, 8); 
+.bleuviol{
+   background: linear-gradient(to right, rgb(70, 35, 196), rgb(147, 10, 201)); 
+}
+
+.text-1xl {
+    font-size: 1.1rem /* 20px */;
+    line-height: 1.75rem /* 40px */;
+}
+.text-5xl {
+    font-size: 3.1rem /* 48px */;
+    line-height: 1.25;
+}
+
+.text-0xl {
+    font-size: 1rem /* 20px */;
+    line-height: 1.75rem /* 40px */;
+}
+
+.text-me {
+    font-size: 1.04rem /* 20px */;
+    line-height: 1.8rem /* 40px */;
+}
+
+.text-se {
+    font-size: 1.32rem /* 20px */;
+    line-height: 1.9rem /* 40px */;
 }
 
 .border-neutral{
     border-color: rgb(236, 232, 232);
     --tw-border-opacity: 1;
+}
+
+. {
+
 }

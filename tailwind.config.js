@@ -13,8 +13,11 @@ export default {
     },
     extend: {
       colors : {
-        primary : "rgb(8, 197, 8)"
-      }
+        primary : "rgb(8, 197, 8)",  
+      },
+      fontFamily : {
+        bahnschrift : ['"Arial"', 'sans-serif'], 
+      },
     },
   },
   plugins: [],
