@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./MONSITE/**/*.{js,ts,jsx,tsx,html}"],
+  content: ["./MonSite/**/*.{js,ts,jsx,tsx,html}"],
   theme: {
     screens: {
       sm: "640px",
